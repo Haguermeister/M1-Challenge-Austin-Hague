@@ -20,13 +20,7 @@ public abstract class Human {
     // --- Abstract Behavior (applied to all subclasses)
     abstract void attackCharacter(Human opponent);
     // --- Getters/Setters
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getStrengthPts() {
         return strengthPts;
@@ -34,14 +28,6 @@ public abstract class Human {
 
     public void setStrengthPts(int strengthPts) {
         this.strengthPts = strengthPts;
-    }
-
-    public int getHealthPts() {
-        return healthPts;
-    }
-
-    public void setHealthPts(int healthPts) {
-        this.healthPts = healthPts;
     }
 
     public int getStaminaPts() {
@@ -68,6 +54,38 @@ public abstract class Human {
         this.attackPowerPts = attackPowerPts;
     }
 
+    public int getShieldStrengthPts() {
+        return shieldStrengthPts;
+    }
+
+    public void setShieldStrengthPts(int shieldStrengthPts) {
+        this.shieldStrengthPts = shieldStrengthPts;
+    }
+
+    public String getCharType() {
+        return charType;
+    }
+
+    public void setCharType(String charType) {
+        this.charType = charType;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getHealthPts() {
+        return healthPts;
+    }
+
+    public void setHealthPts(int healthPts) {
+        this.healthPts = healthPts;
+    }
+
     public boolean isRunningStatus() {
         return runningStatus;
     }
@@ -90,21 +108,6 @@ public abstract class Human {
 
     public void setJailTimeDays(int jailTimeDays) {
         this.jailTimeDays = jailTimeDays;
-    }
-
-    public int getShieldStrengthPts() {
-        return shieldStrengthPts;
-    }
-
-    public void setShieldStrengthPts(int shieldStrengthPts) {
-        this.shieldStrengthPts = shieldStrengthPts;
-    }
-    public String getCharType() {
-        return charType;
-    }
-
-    public void setCharType(String charType) {
-        this.charType = charType;
     }
 
     @Override

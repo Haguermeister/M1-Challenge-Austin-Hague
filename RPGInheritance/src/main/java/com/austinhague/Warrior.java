@@ -69,4 +69,64 @@ public class Warrior extends Human {
                 ", jailTimeDays=" + jailTimeDays +
                 '}';
     }
+
+    @Override
+    public int getShieldStrengthPts() {
+        return shieldStrengthPts;
+    }
+
+    @Override
+    public void setShieldStrengthPts(int shieldStrengthPts) {
+        this.shieldStrengthPts = shieldStrengthPts;
+    }
+
+    @Override
+    public int getStrengthPts() {
+        return strengthPts;
+    }
+
+    @Override
+    public void setStrengthPts(int strengthPts) {
+        this.strengthPts = strengthPts;
+    }
+
+    @Override
+    public int getStaminaPts() {
+        return staminaPts;
+    }
+
+    @Override
+    public void setStaminaPts(int staminaPts) {
+        this.staminaPts = staminaPts;
+    }
+
+    @Override
+    public int getSpeedPts() {
+        return speedPts;
+    }
+
+    @Override
+    public void setSpeedPts(int speedPts) {
+        this.speedPts = speedPts;
+    }
+
+    @Override
+    public int getAttackPowerPts() {
+        return attackPowerPts;
+    }
+
+    @Override
+    public void setAttackPowerPts(int attackPowerPts) {
+        this.attackPowerPts = attackPowerPts;
+    }
+
+    @Override
+    public String getCharType() {
+        return charType;
+    }
+
+    @Override
+    public void setCharType(String charType) {
+        this.charType = charType;
+    }
 }

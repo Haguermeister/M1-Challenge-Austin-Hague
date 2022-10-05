@@ -20,13 +20,13 @@ public class IceCream {
         this.quantity = quantity;
     }
 
-    public void sellUnits(int unitsSold, double tipsRecieved){
+    public void sellUnits(int unitsSold, double tipsReceived){
         if (unitsSold>0){
             this.quantity-=unitsSold;
             this.soldQuantity+=unitsSold;
             this.grossIncome+=(unitsSold*price);
-            if(tipsRecieved>0){
-                this.tipsIncome+=tipsRecieved;
+            if(tipsReceived >0){
+                this.tipsIncome+= tipsReceived;
             }
         }
         else {

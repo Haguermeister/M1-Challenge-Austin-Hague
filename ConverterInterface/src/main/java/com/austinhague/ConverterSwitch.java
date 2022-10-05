@@ -4,7 +4,10 @@ package com.austinhague;
 public class ConverterSwitch {
     public String convertDay(int dayNum) {
         String[] dayArray = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-        // String message = "The corresponding day to the input number " + dayNum + " is " + dayArray[dayNum - 1] + ".";
+//        String message = null;
+//        if(dayNum>0 && dayNum<8) {
+//            message = "The corresponding day to the input number " + dayNum + " is " + dayArray[dayNum - 1] + ".";
+//        }
         // Hardcoded Switch Statement
         switch (dayNum) {
             case 1:

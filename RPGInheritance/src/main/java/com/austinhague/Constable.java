@@ -67,6 +67,56 @@ public class Constable extends Human {
     }
 
     @Override
+    public int getStrengthPts() {
+        return strengthPts;
+    }
+
+    @Override
+    public void setStrengthPts(int strengthPts) {
+        this.strengthPts = strengthPts;
+    }
+
+    @Override
+    public int getStaminaPts() {
+        return staminaPts;
+    }
+
+    @Override
+    public void setStaminaPts(int staminaPts) {
+        this.staminaPts = staminaPts;
+    }
+
+    @Override
+    public int getSpeedPts() {
+        return speedPts;
+    }
+
+    @Override
+    public void setSpeedPts(int speedPts) {
+        this.speedPts = speedPts;
+    }
+
+    @Override
+    public int getAttackPowerPts() {
+        return attackPowerPts;
+    }
+
+    @Override
+    public void setAttackPowerPts(int attackPowerPts) {
+        this.attackPowerPts = attackPowerPts;
+    }
+
+    @Override
+    public String getCharType() {
+        return charType;
+    }
+
+    @Override
+    public void setCharType(String charType) {
+        this.charType = charType;
+    }
+
+    @Override
     public String toString() {
         return "Constable{" +
                 "jurisdiction='" + jurisdiction + '\'' +
